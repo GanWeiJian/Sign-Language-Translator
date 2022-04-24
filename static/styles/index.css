@@ -1,0 +1,35 @@
+
+.indent-1 {
+    margin: 1rem;
+    padding: 3rem 3rem;
+    text-align: center;
+}
+
+.indent-1 section {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: text-top;
+}
+
+
+h3{
+    text-align: center;
+    padding:20px;
+    font-family: Poppins,sans-serif;
+}
+
+body{
+    background-color: #FFEBDE;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    background-color: white;
+}
+  
+  /* Add some padding inside the card container */
+.inner_container {
+    padding: 2px 16px;
+}
