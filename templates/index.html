@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel= "stylesheet" type= "text/css" href= "../static/styles/index.css">
+    </head>
+    <body>
+        <section class="indent-1">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8  offset-lg-2">
+                           
+                            <div class="card">
+                                <h3 class="mt-5">Sign Language Translator Web Application</h3>
+                                {%if not condition%}
+                                <img src="{{ url_for('video') }}" width="100%">
+                                {%else%}
+                                <h3>Camera is off!</h3>  
+                                {%endif%}
+                                <div class="inner_container">
+                                    <h3>{{status}}</h3>  
+                                
+                                </div>
+                            </div>      
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>     
+    </body>
+</html>
+
